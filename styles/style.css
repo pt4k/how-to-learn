@@ -21,36 +21,32 @@
 }
 
 .logo {
+  width: 183px;
+  height: 32px;
+}
+
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
   z-index: 1;
 }
 
-.logo_place_header {
-  width: 183px;
-  height: 32px;
-}
-
 .header__title {
   width: 730px;
   margin-left: 64px;
   z-index: 1;
-}
-
-.content__title {
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin: auto;
   align-items :center 
 }
 
 .header__subtitle {
   width: 388px;
   position: absolute;
-  bottom: 30px;
   left: 64px;
+  bottom: 0px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -71,7 +67,6 @@
   right: 0;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
