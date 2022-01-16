@@ -198,7 +198,10 @@
   font-size: 18px;
   font-weight: normal;
 }
-/* нужно задать нижний margin 0 для 2-го и 5- го параграфа, пока не понимаю как это сделать */ 
+
+.table__text_paragraph {
+  margin-bottom: 0;
+}
 
 /* ниже заданы стили для секции блока feynman*/
 .feynman {
@@ -393,6 +396,8 @@
 
 .footer__column-link {
   margin-left: 0;
+  text-decoration: none;
+  color: white;
 }
 
 .footer__social-icon {
