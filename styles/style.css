@@ -9,6 +9,10 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.project_space_bottom {
+  margin-bottom: 100px;
+}
+
 /* ниже заданы стили для секции блока header*/
 .header {
   height: 100vh;
@@ -82,8 +86,6 @@
 
 /* ниже заданы стили для секции блока description*/
 .description {
-  margin-top: 100px;
-  margin-bottom: 100px;
   display: flex;
   justify-content: center;
 }
@@ -129,7 +131,6 @@
 
 /* ниже заданы стили для секции блока digits*/
 .digits {
-  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -137,30 +138,39 @@
 
 .section-title {
   width: 60%;
-  margin: 0 auto;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
 }
 
+.digits__section-title {
+  margin: 0 auto;
+}
+
 .section-subtitle {
   width: 60%;
-  margin: 20px auto 60px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   text-align: center;
 }
 
+.digits__section-subtitle {
+  margin: 20px auto 60px;
+}
+
 .table {
   width: 1100px;
   display: flex;
   justify-content: space-between;
-  margin: auto;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
+}
+
+.digits__table {
+  margin: 0 auto;
 }
 
 .table__cell {
@@ -203,7 +213,7 @@
   height: 890px;
   display: flex;
   flex-direction: column;
-  background: #f2f2f2 url('../Users/Administrator/dev/how-to-learn/images/feynman.png') no-repeat bottom left/ 867px 637px;
+  background: #f2f2f2 url('../images/feynman.png') no-repeat bottom left/ 867px 637px;
   position: relative;
 }
 
@@ -248,6 +258,7 @@
 .section-title_theme_dark {
   color: white;
   margin: 90px auto 20px;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
@@ -258,7 +269,7 @@
 
 .table_theme_dark {
   z-index: 1;
-  margin-bottom: 90px;
+  margin: 0 auto 90px;
 }
 
 .table__cell_theme_dark {
@@ -369,7 +380,7 @@
   text-decoration: none;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
 
 }
 
