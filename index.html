@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="./pages/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Страница про методы и способы обучения">
-  <meta name="keywords" content="Метод Фейнмана, Принципы обычения, Джош Кауфман,">
+  <meta name="keywords" content="Метод Фейнмана, Принципы обычения, Джош Кауфман, TED, Барбара Оакли, Салман Хан">
   <meta name="author" content="Юрий Пищенко">
   <title>Научиться учиться</title>
 </head>
@@ -15,11 +15,11 @@
   <div class="page">
 
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум">
+      <img class="logo logo_place_header" src="./images/logo/logo_place_header.svg" alt="Логотип Яндекс Практикум">
       <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link link-hover" href="#"> Узнать &rarr;</a></p>
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link hover-link" href="#"> Узнать &rarr;</a></p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Опять двойка">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -36,10 +36,8 @@
       </section>
 
       <section class="techniques">
-        <!--сделать другой модификатор бля блока "section-title" вместо "digits__section-title"-->
-        <h1 class="section-title digits__section-title">Техники обучения</h1>
-        <!--сделать другой модификатор бля блока "section-subtitle" вместо "digits__section-subtitle"-->
-        <p class="section-subtitle digits__section-subtitle">Пять практик от Барбары Оакли</p>
+        <h1 class="section-title">Техники обучения</h1>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
             <img class="cards__image" src="./images/cards-attention.png" alt="Изображение книги">
@@ -70,10 +68,8 @@
       </section>
 
       <section class="video">
-        <!--сделать другой модификатор бля блока "section-title" вместо "digits__section-title"-->
-        <h1 class="section-title digits__section-title">Видео нa TED</h1>
-        <!--сделать другой модификатор бля блока "section-title" вместо "digits__section-title"-->
-        <p class="section-subtitle digits__section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <h1 class="section-title">Видео нa TED</h1>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
           <iframe class="video__iframe" id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
           <iframe class="video__iframe" id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
@@ -92,13 +88,13 @@
       <section class="feynman">
         <h1 class="feynman__title">Метод Фейнмана</h1>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link" href="#">Подробнее &rarr;</a>
+        <a class="feynman__link hover-link" href="#">Подробнее &rarr;</a>
       </section>
 
       <section class="digits">
-        <h1 class="section-title digits__section-title">Цифры и факты</h1>
-        <p class="section-subtitle digits__section-subtitle">Про учёбу и мозг</p>
-        <ul class="table digits__table">
+        <h1 class="section-title">Цифры и факты</h1>
+        <p class="section-subtitle">Про учёбу и мозг</p>
+        <ul class="table">
           <li class="table__cell">
             <h2 class="table__heading">86 миллиардов</h2>
             <p class="table__text">Число нейронов в мозге человека</p>
@@ -146,7 +142,7 @@
         </div>
         <div class="khan__book-container">
           <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Фото книги Весь мир - школа. Автор - Салман Хан.">
-          <a class="khan__buy-link" href="">Купить книгу &rarr;</a>
+          <a class="khan__buy-link hover-link" href="">Купить книгу &rarr;</a>
         </div>
       </section>
 
@@ -195,20 +191,18 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
 
       <section class="resources">
-        <!--сделать другой модификатор бля блока "section-title" вместо "digits__section-title"-->
-        <h1 class="section-title digits__section-title">Полезные ресурсы</h1>
-        <!--сделать другой модификатор бля блока "section-subtitle" вместо "digits__section-subtitle"-->
-        <p class="section-subtitle digits__section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип Arzamas">
-          <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип N+1">
-          <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип STRELKA">
-          <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип ПОЛКА">
-        </div>
+        <h1 class="section-title">Полезные ресурсы</h1>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <ul class="resources__logo-zone">
+          <li><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип Arzamas"></li>
+          <li><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип N+1"></li>
+          <li><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип STRELKA"></li>
+          <li><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип ПОЛКА"></li>
+        </ul>
       </section>
 
     </main>
@@ -216,23 +210,23 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
+          <img class="logo logo_place_footer" src="./images/logo/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
           <p class="footer__author">&copy; 2022. Юрий Пищенко</p>
         </div>
         <nav class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
           <ul class="footer__column-links">
-            <li><a class="footer__column-link" href="#">Главная</a></li>
-            <li><a class="footer__column-link" href="#">Концепция</a></li>
-            <li><a class="footer__column-link" href="#">Наставники</a></li>
+            <li><a class="footer__column-link hover-link" href="#">Главная</a></li>
+            <li><a class="footer__column-link hover-link" href="#">Концепция</a></li>
+            <li><a class="footer__column-link hover-link" href="#">Наставники</a></li>
           </ul>
         </nav>
         <nav class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
           <ul class="footer__column-links">
-            <li><a class="footer__column-link" href="#"> <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Логотип Facebook"> Facebook</a></li>
-            <li><a class="footer__column-link" href="#"> <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип ВКонтакте"> ВКонтакте</a></li>
-            <li><a class="footer__column-link" href="#"> <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Логотип Instagramm"> Instagram</a></li>
+            <li><a class="footer__column-link hover-link" href="#"> <img class="footer__social-icon" src="./images/logo/facebook_color_white.svg" alt="Логотип Facebook"> Facebook</a></li>
+            <li><a class="footer__column-link hover-link" href="#"> <img class="footer__social-icon" src="./images/logo/vk_color_white.svg" alt="Логотип ВКонтакте"> ВКонтакте</a></li>
+            <li><a class="footer__column-link hover-link" href="#"> <img class="footer__social-icon" src="./images/logo/instagram_color_white.svg" alt="Логотип Instagramm"> Instagram</a></li>
           </ul>
         </nav>
      </div>

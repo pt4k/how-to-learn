@@ -1,5 +1,0 @@
-.link-hover::hover {
-  text-decoration: none; /* Убираем подчеркивание */
-  color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */
-  background: #e24486; /* Цвет фона */
-}
