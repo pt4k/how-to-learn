@@ -1,4 +1,7 @@
+.hover-link {
+  transition: .2s;
+}
+
 .hover-link:hover {
   opacity: 0.3;
-  transition: .2s;
 }
