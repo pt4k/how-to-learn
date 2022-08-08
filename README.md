@@ -15,6 +15,6 @@ HTML, CSS, Git, БЭМ, CSS flexbox, CSS Frameworks, CSS позициониро�
 
 ---
 
-[Ссылка на проектную работу](https://pt4k.github.io/mesto-react/)
+[Ссылка на проектную работу](https://pt4k.github.io/how-to-learn/)
 
 ---
